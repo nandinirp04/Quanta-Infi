@@ -5,6 +5,7 @@ const slogan = document.querySelector('.slogan');
 const heroBtn = document.querySelector('.hero-btn');
 const aboutH1 = document.querySelector('.about h1');
 const aboutContent = document.querySelector('.about .contents');
+const services =document.querySelectorAll(".services .container .card");
 
 
 window.onscroll = () => {
@@ -53,10 +54,14 @@ window.onload = () => {
         case "#contact":
         selectNav("contact");     
   }
-  observer.observe(slogan)
-  observer.observe(heroBtn)
-  observer.observe(aboutContent)
-  observer.observe(aboutH1)
+  observer.observe(slogan);
+  observer.observe(heroBtn);
+  observer.observe(aboutContent);
+  observer.observe(aboutH1);
+  services.forEach((card)=> {
+    observer.observe(card);
+  })
+
 };
  
 const hamBurger = document.querySelector('.header .hamburger');
@@ -80,3 +85,7 @@ observer = new IntersectionObserver(entries =>{
     entry.target.classList.toggle("show", entry.isIntersecting);
   })
 })
+
+
+
+
