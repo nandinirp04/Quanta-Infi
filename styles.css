@@ -365,7 +365,7 @@ section:not(.home):not(.about){
     perspective: 1200px; /* Added perspective for better 3D effect */
 }
 
- .card {
+.banner  .orbit-container .card {
     position: absolute;
     width: 250px; /* Same card size for all */
     height: 250px; /* Same card size for all */
