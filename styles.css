@@ -522,6 +522,7 @@ section:not(.home):not(.about) :not(.contact) {
     align-items: center;
     border-radius: 50%;
     font-size:22px;
+    padding-bottom:40px ;
 }
 
 .container .contactInfo .box .text{
