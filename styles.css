@@ -318,7 +318,7 @@ section:not(.home):not(.about) :not(.contact) {
     padding: 1rem;
     background-color: var(--primary-color);
     text-align: center;
-    height: 15rem;
+    height: 1.rem;
 }
 
 .services .container .card .details h3 {
@@ -642,6 +642,110 @@ section:not(.home):not(.about) :not(.contact) {
         font-size: 24px;
     }
 }
+
+
+
+
+/* footer section start   */
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Style */
+  body {
+    font-family: Arial, sans-serif;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+
+  
+  /* Footer Style */
+  .footer {
+    margin-top: 15px;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .footer p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  /* Social Icons Style */
+  .social-icons {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .social-icon {
+    color: #fff; /* White color for icons */
+    font-size: 20px;
+    text-decoration: none;
+  }
+  
+  .social-icon:hover {
+    color: #ddd; /* Change color on hover */
+  }
+  
+  /* Mobile Responsive Design */
+  @media (max-width: 600px) {
+    .footer {
+      padding: 15px 10px;
+    }
+  
+    .social-icons {
+      flex-direction: column; /* Stack icons vertically on small screens */
+      gap: 10px;
+    }
+  
+    .social-icon {
+      font-size: 24px; /* Increase icon size on mobile */
+    }
+  }
+  
+  
+  /* Mobile Responsive Design */
+  @media (max-width: 600px) {
+    .footer {
+      padding: 15px 10px;
+    }
+  
+    .footer-links {
+      flex-direction: column; /* Stack links vertically on small screens */
+      gap: 10px;
+    }
+  }
+  .chat-button {
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    background-color: #25D366;
+    color: white;
+    border-radius: 50%;
+    padding: 15px;
+    font-size: 24px;
+    text-decoration: none;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .chat-button:hover {
+    background-color: #128C7E;
+  }
+  
+
+
 
 
 
