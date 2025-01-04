@@ -727,7 +727,6 @@ section:not(.home):not(.about) :not(.contact) {
       gap: 10px;
     }
   }
-
   .chat-button {
     position: fixed;
     bottom: 50px;
