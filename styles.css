@@ -125,6 +125,8 @@ main{
     width: 100%;
 
 }
+
+
 /* home section starts here  */
 .home {
     background-color:var(--primary-color);
@@ -403,8 +405,8 @@ section:not(.home):not(.about) :not(.contact) {
 }
 
 .card .summary {
-    margin-bottom: 5px;
-    font-size: 1em;
+    margin-bottom: 50px;
+    font-size: 1.2em;
     opacity: 0.7;
 }
 
@@ -512,12 +514,14 @@ section:not(.home):not(.about) :not(.contact) {
 }
 
 .container .contactInfo .box{
+
     position: relative;
     padding: 20px 0;
     display: flex;
 }
 
 .container .contactInfo .box .icon{
+
     min-width: 60px;
     height: 60px;
     background:#fff;
@@ -531,6 +535,7 @@ section:not(.home):not(.about) :not(.contact) {
 
 .container .contactInfo .box .text{
     display: flex;
+    /* margin-top: none; */
     margin-left: 20px;
     font-size: 16px;
     color:#fff;
@@ -539,6 +544,7 @@ section:not(.home):not(.about) :not(.contact) {
 }
 
 .container .contactInfo .box .text h3{
+   margin-top: -40px;
     font-weight: 500;
     color: #00bcd4;
 }
