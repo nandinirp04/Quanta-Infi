@@ -257,10 +257,11 @@ section:not(.home):not(.about) :not(.contact) {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 3rem;
+    
 }
 
 .services .container .card {
-    max-height: 52vh;
+    max-height: 90vh;
     display: flex;
     flex-direction: column;
     color: var(--secondary-text);
@@ -317,6 +318,7 @@ section:not(.home):not(.about) :not(.contact) {
     padding: 1rem;
     background-color: var(--primary-color);
     text-align: center;
+    height: 15rem;
 }
 
 .services .container .card .details h3 {
