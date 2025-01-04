@@ -173,7 +173,8 @@ opacity: 0;
     opacity: 1;
     transform: translateX(0);
 }
-.home .description .hero-btn {
+.home .description .hero-btn 
+ {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -184,7 +185,8 @@ opacity: 0;
     margin-bottom: 12rem;
     /* background-color: blue; */
 }
-.home .description .hero-btn.show{
+.home .description .hero-btn.show
+.contactForm .inputbox input[type="submit"]{
     opacity: 1;
     transform: translateX(0);
 }
@@ -203,7 +205,8 @@ opacity: 0;
     background-color: transparent;
 
 }
-.home .description .hero-btn a:hover{
+.home .description .hero-btn a:hover,
+.contactForm .inputbox input[type="submit"]:hover{
     background-color: var(--primary-text);
     color: var(--secondary-color);
     box-shadow: 5px -5px 15px var(--primary-text);
@@ -601,7 +604,7 @@ section:not(.home):not(.about) :not(.contact) {
     padding-left: 5%;
 
 }
-
+/* 
 .contactForm .inputbox input[type="submit"]{
     width: 100px;
     background: #00bcd4;
@@ -611,7 +614,7 @@ section:not(.home):not(.about) :not(.contact) {
     padding: 10px;
     font-size: 18px;
     border-radius: 5%;
-}
+} */
 
 @media(max-width:991px){
     .contact{
@@ -703,7 +706,8 @@ section:not(.home):not(.about) :not(.contact) {
     .home .description .slogan{
         width: 50%;
     }
-    .home .description .hero-btn{
+    .home .description .hero-btn
+    {
         flex-direction: column;
         justify-content: center;
     }
