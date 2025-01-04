@@ -602,7 +602,7 @@ section:not(.home):not(.about) :not(.contact) {
     color:#e91e63;
     font-size:8px;
     transform: translateY ( -20px);
-    text:none;
+    /* text:none; */
     padding-left: 5%;
 
 }
@@ -727,6 +727,7 @@ section:not(.home):not(.about) :not(.contact) {
       gap: 10px;
     }
   }
+
   .chat-button {
     position: fixed;
     bottom: 50px;
